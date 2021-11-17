@@ -1,13 +1,15 @@
-# password-cracking-study
-
-##Overview
+password-cracking-study
+=======================
+Overview
+--------
 <p>Any company or organisation wants their costumer data to be secured and non-rerachable to hackers.If 
 company's data gets hacked, and the database leaked in public. database can be misused. It  spoils 
 the image of a company and make it untrustworthy. That's why, any organisation wants to be a step ahead 
 of hacker, in order to prevent important database from hackers. We need to know the techniques used by 
 the hackers and propose uplifts the overall level of security in an organisation.</p>
 
-##Project Objective
+Project Objective
+-----------------
 <mark>What type of hashing algorithm was used to protect passwords?</mark><br>
 Some common hashing algorithms include MD5, SHA-1, SHA-2, NTLM, and LANMAN.<br>
 <mark>What level of protection does the mechanism offer for passwords?</mark><br>
@@ -35,9 +37,9 @@ those in a database, none of the hashes would match, even if the passwords were 
 <br>
 
 
-By analysing all the passwords which are leaked:
-![Datasheet of leaked password](datasheet1.png "leaked")
-![Datasheet2 of leaked password](datasheet2.png "leaked2")
+<p>By analysing all the passwords which are leaked:</p><br>
+![Datasheet of leaked password](datasheet1.png "leaked")<br>
+![Datasheet2 of leaked password](datasheet2.png "leaked2")<br>
 
 <p>I have noticed that all the leaked passwords are of length less than 7 and passwords with no characters
 are more easier to crack. There are so many websites which can change any plaintext to MD5 hash, so, always 
@@ -48,8 +50,9 @@ algorithms, what hackers will do is try millions, or billions of different combi
 bcrypt is computationally slow, so this cracking will be slowed down immensely. Bcrypt can help
 slow cracking down to the point where you can only do a few tests per second, if that. This is due to the computational cost factor.</p>
 
-##Resources
-[To read more about Bcrypt](https://security.stackexchange.com/questions/61385/the-brute-force-resistence-of-bcrypt-versus-md5-for-password-hashing/61387#61387)
-[Password attack types and how to prevent them](https://threatmodeler.com/top-5-password-attack-types-and-how-to-prevent-them/)
-[Convertor of MD5 hash to plaintext](https://md5decrypt.net/en/)
-[To read more about SHA-256 and convertor of plaintext to SHA-256 hash](https://www.movable-type.co.uk/scripts/sha256.html)
+Resources
+---------
+[To read more about Bcrypt](https://security.stackexchange.com/questions/61385/the-brute-force-resistence-of-bcrypt-versus-md5-for-password-hashing/61387#61387)<br>
+[Password attack types and how to prevent them](https://threatmodeler.com/top-5-password-attack-types-and-how-to-prevent-them/)<br>
+[Convertor of MD5 hash to plaintext](https://md5decrypt.net/en/)<br>
+[To read more about SHA-256 and convertor of plaintext to SHA-256 hash](https://www.movable-type.co.uk/scripts/sha256.html)<br>
