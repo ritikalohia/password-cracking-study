@@ -28,34 +28,38 @@ A salt randomizes each hash by adding random data that is unique to each user to
 so even the same password has a unique hash. If someone tried to compare hashes in a rainbow table to
 those in a database, none of the hashes would match, even if the passwords were the same.</p><br>
 
-`What can you tell about the organization’s password policy (e.g. password length, key space, etc.)?`
-  *Password should be of length more than 7.<br>
-  *Characters, small letters, numbers and capital letters must be included in password.<br>
-  *Unnecessary details must not be mandatory to be filled.<br>
-  *Don’t let users include their username, actual name, date of birth and other personal information while creating a password.<br>
+`What can you tell about the organization’s password policy (e.g. password length, key space, etc.)?` <br>
+  - Password should be of length more than 7.<br>
+  - Characters, small letters, numbers and capital letters must be included in password.<br>
+  - Unnecessary details must not be mandatory to be filled.<br>
+  - Don’t let users include their username, actual name, date of birth and other personal information while creating a password.<br>
   
 `What would you change in the password policy to make breaking the passwords harder?`
-  -Reliable hashing functions like <mark>SHA-256</mark> and <mark>bcrypt</mark> are recommended and 
-   common hashing function like MD5 should not be used.<br>
-  -Salting should be used. <br>
-  -Investing in encryption software, it is foolproof way to safeguard your database and ensure that
-   anyone trying to hack in is unable to read the information presented in the database.<br>
+  - Reliable hashing functions like <mark>SHA-256</mark> and <mark>bcrypt</mark> are recommended and 
+    common hashing function like MD5 should not be used.<br>
+  - Salting should be used. <br>
+  - Investing in encryption software, it is foolproof way to safeguard your database and ensure that
+    anyone trying to hack in is unable to read the information presented in the database.<br>
 <br>
 
 
-<p>By analysing all the passwords which are leaked:</p><br>
-![Datasheet of leaked password](datasheet1.png "leaked")<br>
-![Datasheet2 of leaked password](datasheet2.png "leaked2")<br>
+**By analysing all the passwords which are leaked:**<br>
+![Datasheet of leaked password](datasheet (1).png "leaked")<br>
+![Datasheet2 of leaked password](datasheet (2).png "leaked2")<br>
 
 ```
-I have noticed that all the leaked passwords are of length less than 7 and passwords with no characters
-are more easier to crack. There are so many websites which can change any plaintext to MD5 hash, so, always 
+I have noticed that all the leaked passwords are of length less than 7 
+and passwords with no charactersare more easier to crack. There are so
+many websites which can change any plaintext to MD5 hash, so, always 
 stay away from making common password. 
-Hackers use high quality of graphics card in their system, because they will try to compare a massive quantity 
-of strings to your hash, and the one that validates is very likely your password. With weak password hashing 
-algorithms, what hackers will do is try millions, or billions of different combinations - as fast as their hardware allows.
-bcrypt is computationally slow, so this cracking will be slowed down immensely. Bcrypt can help
-slow cracking down to the point where you can only do a few tests per second, if that. This is due to the computational cost factor.
+Hackers use high quality of graphics card in their system, because they 
+will try to compare a massive quantity of strings to your hash, and 
+the one that validates is very likely your password. With weak password
+hashing algorithms, what hackers will do is try millions, or billions 
+of different combinations - as fast as their hardware allows.
+bcrypt is computationally slow, so this cracking will be slowed down
+immensely. Bcrypt can helpslow cracking down to the point where youcan 
+only do a few tests per second, if that. This is due to the computational cost factor.
 ```
 
 Resources
