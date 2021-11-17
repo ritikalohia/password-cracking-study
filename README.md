@@ -44,8 +44,9 @@ those in a database, none of the hashes would match, even if the passwords were 
 
 
 **By analysing all the passwords which are leaked:**<br>
-![Datasheet of leaked password](datasheet (1).png "leaked")<br>
-![Datasheet2 of leaked password](datasheet (2).png "leaked2")<br>
+
+![Datasheet of leaked password](datasheet (1).png "leaked")
+![Datasheet2 of leaked password](datasheet (2).png "leaked2")
 
 ```
 I have noticed that all the leaked passwords are of length less than 7 
