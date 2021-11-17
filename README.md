@@ -40,7 +40,7 @@ those in a database, none of the hashes would match, even if the passwords were 
 <p>By analysing all the passwords which are leaked:</p><br>
 ![Datasheet of leaked password](datasheet1.png "leaked")<br>
 ![Datasheet2 of leaked password](datasheet2.png "leaked2")<br>
-
+```
 <p>I have noticed that all the leaked passwords are of length less than 7 and passwords with no characters
 are more easier to crack. There are so many websites which can change any plaintext to MD5 hash, so, always 
 stay away from making common password. 
@@ -49,6 +49,7 @@ of strings to your hash, and the one that validates is very likely your password
 algorithms, what hackers will do is try millions, or billions of different combinations - as fast as their hardware allows.
 bcrypt is computationally slow, so this cracking will be slowed down immensely. Bcrypt can help
 slow cracking down to the point where you can only do a few tests per second, if that. This is due to the computational cost factor.</p>
+```
 
 Resources
 ---------
