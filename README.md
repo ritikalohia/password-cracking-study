@@ -50,16 +50,16 @@ those in a database, none of the hashes would match, even if the passwords were 
 
 ```
 I have noticed that all the leaked passwords are of length less than 7 
-and passwords with no charactersare more easier to crack. There are so
+and passwords with no characters are easier to crack. There are so
 many websites which can change any plaintext to MD5 hash, so, always 
-stay away from making common password. 
+stay away from making common passwords. 
 Hackers use high quality of graphics card in their system, because they 
 will try to compare a massive quantity of strings to your hash, and 
 the one that validates is very likely your password. With weak password
 hashing algorithms, what hackers will do is try millions, or billions 
 of different combinations - as fast as their hardware allows.
 bcrypt is computationally slow, so this cracking will be slowed down
-immensely. Bcrypt can helpslow cracking down to the point where youcan 
+immensely. Bcrypt can help slow cracking down to the point where youcan 
 only do a few tests per second, if that. This is due to the computational cost factor.
 ```
 
